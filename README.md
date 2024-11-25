@@ -11,7 +11,7 @@
 </p>
 
 <details>
-  <summary>i. Deskripsi Singkat</summary>
+  <summary>i. Deskripsi Aplikasi</summary>
 Pernahkah Anda kesulitan untuk menemukan restoran yang anda inginkan selama berjalan-jalan di kota bandung, atau kesulitan mencari tempat kuliner yang menyediakan makanan minuman khas bandung?
   <br><br>
 WhyBandung hadir untuk membantu baik wisatawan maupun warga lokal dalam menemukan kuliner terbaik di Bandung. Situs ini dilengkapi dengan sistem navigasi berbasis peta yang unik dan intuitif, sehingga memudahkan pengguna mencari makanan dan minuman yang diinginkan. WhyBandung memungkinkan pengguna untuk mengeksplorasi kuliner di berbagai wilayah berdasarkan lokasi atau kategori makanan. Selain itu, WhyBandung akan terus mengembangkan dan memperbarui daftar lokasi kuliner secara berkala.  
@@ -57,19 +57,7 @@ CRUD
 </details>
 
 <details>
-  <summary>iiI. Deskripsi Dataset</summary>
-Dalam pembuatan web aplikasi WhyBandung, kami membutuhkan database yang memiliki data mengenai informasi seputar produk kuliner yang berada di kota Bandung. Data ini kami dapatkan melalui pencarian di internet. Data yang akan kami gunakan ini berfungsi untuk mempermudah pengguna aplikasi WhyBandung untuk menemukan makanan ataupun minuman berdasarkan lokasi, kategori produk, harga produk, dan toko yang menyediakan produk tersebut. Pada dataset kami terdapat kolom Kode Produk, Nama Produk, Kategori, Toko, Harga Retail, dan Lokasi untuk memberikan informasi detail yang dibutuhkan pengguna nanti.
-  <br><br>
-Kolom Kode Produk digunakan sebagai kode unik untuk setiap item produk, sehingga aplikasi dapat dengan mudah membedakan satu produk dengan produk lainnya. Kolom Nama Produk digunakan untuk memberikan informasi nama produk spesifik yang dapat dicari oleh pengguna. Lalu, terdapat kolom Kategori yang digunakan untuk mengelompokkan produk berdasarkan kategorinya yang seusai contohnya seperti kategori kue, minuman, makanan berat, dan lain-lain. Selain mengelompokkan produk, Kolom Kategori dapat membantu pengguna untuk mencari suatu produk berdasarkan kategori produk tersebut. Kolom Toko digunakan untuk memberikan informasi mengenai tempat atau kedai apa yang menjual produk tersebut sehingga pengguna dapat mengetahui dimana pengguna dapat membeli produk yang diinginkan.
-  <br><br>
-Kolom Harga Retail memberikan informasi mengenai harga suatu produk sehingga pengguna dapat memilih produk yang mereka inginkan sesuai dengan budget yang mereka miliki. Sedangkan kolom Lokasi digunakan untuk memberikan informasi pada daerah mana produk tersebut berada. Pengguna juga dapat mencari produk sesuai dengan lokasi yang diinginkan.
-<br><br>
-DATABASE DAPAT DIAKSES MELALUI LINK INI : <a href="https://docs.google.com/spreadsheets/d/1peBfLmwdaHBPClgn3gGGbBMKNjFn44a-ky20q7FM3h8/edit?usp=sharing ">https://docs.google.com/spreadsheets/d/1peBfLmwdaHBPClgn3gGGbBMKNjFn44a-ky20q7FM3h8/edit?usp=sharing </a>
-
-</details>
-
-<details>
-  <summary>iv. Deskripsi role-role User dan Wewenang</summary>
+  <summary>iii. Deskripsi role-role User dan Wewenang</summary>
 1. Dashboard
 User Biasa:
 - Bisa melihat recent activity seperti pencarian terbaru atau ulasan yang pernah dibuat.
@@ -86,7 +74,7 @@ Developer:
 </details>
 
 <details>
-  <summary>v. Alur pengintegrasian dengan web service untuk terhubung dengan aplikasi web yang sudah dibuat saat Proyek Tengah Semester</summary>
+  <summary>iv. Alur pengintegrasian dengan web service untuk terhubung dengan aplikasi web yang sudah dibuat saat Proyek Tengah Semester</summary>
   Untuk melakukan pengintegrasian dengan web service kami akan menggunakan JSON sebagai alat komunikasi terhadap model yang ada pada database kami selain itu kami juga
   akan memanfaatkan http request untuk mengambil dan mengirim data secara dinamis antara web dan juga aplikasi.
 
